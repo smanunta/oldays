@@ -1,0 +1,365 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Oswald);  /*google font : font-family: 'Oswald', sans-serif;*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:100); /*font-family: 'Raleway', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Lobster);/* font-family: 'Lobster', cursive;, cursive;*/ 
+
+/*----------SECTION FOR SPECIAL ICONS----------*/
+@font-face {
+  font-family: 'icon';
+  src: url('../font/icomoon.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../font/icomoon.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â5 */
+}
+.icon-home:before {
+	font-family: 'icon';
+	speak: none;
+	content: "\e600  ";
+}
+.icon-about:before {
+	font-family: 'icon';
+	speak: none;
+	content: "\e675  ";
+	
+}
+.icon-gallery:before {
+font-family: 'icon';
+	speak: none;
+	content: "\e60e  ";
+}
+.icon-buy:before {
+font-family: 'icon';
+	speak: none;
+	content: "\e638  ";
+}
+.icon-contact:before {
+font-family: 'icon';
+	speak: none;
+	content: "\e63c  ";
+}
+.icon-facebook:before {
+font-family: 'icon';
+	speak: none;
+	content: "\e769  ";
+}
+.icon-twitter:before {
+font-family: 'icon';
+	speak: none;
+	content: "\e76d  ";
+}
+.icon-linkedin:after {
+	font-family: 'icon';
+	speak: none;
+	content: "\e79f  ";
+	color: #4875B4;
+}
+.icon-thunmsup:before {
+	font-family: 'icon';
+	speak: none;
+	content: "\e6d4";
+}
+/*----------END SECTION FOR SPECIAL ICONS----------*/
+body
+{
+	-webkit-font-smoothing: antialiased;
+}
+/*------------Header -oldays1- Section-----------------------*/
+header
+{
+	background: linear-gradient(315deg, #3e5062 10%, #203040 90%);
+}
+#mainJumbotron
+{
+	background: transparent;
+    padding: 0;
+}
+#jumboImage1
+{
+	width: 100%;
+	max-width:509px;
+    margin-bottom: -60px;
+    display: block;
+    position: relative;
+	padding-top:40px;
+}
+#mainJumbotron h1
+{
+	font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    color: #fff;
+	margin-top: 40px;
+    margin-bottom: 5px;
+	text-shadow: 0px 3px 1px #000;
+}
+#mainJumbotron h2
+{
+	color: #bde0f4;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+@media screen and (min-width: 890px) 
+{
+    #oldays1-text-block {
+       padding-top: 75px;
+    }
+
+}
+#oldays1-text-block .icon-facebook:before {
+font-family: 'icon';
+	speak: none;
+	content: "\e76a  ";
+	font-size:1.1em;
+	color: purple;
+}
+/*.btn-clear:hover > .icon-facebook
+{
+	color: purple;	
+}
+*/
+/*---------------END Header -oldays1- Section------------------*/
+/*----------------barista Section-------------------*/
+.baristaMain
+{
+	width:100%;
+	max-width: 400px;
+}
+/*--------------END barista section---------------------*/
+.no-gutter
+{
+	margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 440px;
+}
+.half-block
+{
+	text-align: center;
+	position:relative;
+	width: 100%;
+    height: 340px;
+	overflow:hidden;
+}
+.half-block img
+{
+	width:100%;
+	position: absolute;
+    top: 0;
+    left: 0;
+	-webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    -webkit-backface-visibility: hidden;
+}
+.half-block img:hover
+{
+	transform: scale(1.1);
+}
+#fadedWindows
+{
+	background: linear-gradient(315deg, #403B4A 10%, #E7E9BB 90%);
+}
+.fadedWindowLabel
+{
+	display: table;
+	width:100%;
+	height:100%;
+}
+.fadedWindowLabel .cell
+{
+	border:1px solid #fff;
+	text-align: center;
+    padding: 0 40px;
+	display: table-cell;
+    vertical-align: middle;
+}
+.fadedWindowLabel .cell .text
+{
+    color: #fff;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    width: 245px;
+    height: 82px;
+	border:1px solid #fff;
+	background:transparent;
+	border-radius:40px;
+	-webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+h2#banner_title
+{
+	font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+    color: #000;
+    background: yellow;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+#contentBanner
+{
+	/*background: url('../images/banner-bg.png');*/
+}
+#myCarousel
+{
+    height: 100%;
+	min-height: 600px;
+    overflow: hidden;
+    background: #735768;
+}
+/*-----------------Blur block------------------------------------*/
+.full-block
+{
+	text-align: center;
+	position:relative;
+	width: 100%;
+    height: 400px;
+	overflow:hidden;
+}
+.full-block img
+{
+	width:100%;
+	position: absolute;
+    top: 0;
+    left: 0;
+	-webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    -webkit-backface-visibility: hidden;
+	-webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    filter: blur(3px);
+	min-width: 900px;
+}
+.full-block:hover > img
+{
+	transform: scale(1.1);
+	-webkit-filter: blur(0px);
+    -moz-filter: blur(2px);
+    filter: blur(2px);
+}
+.full-block:hover > .fadedWindowLabel2 .cell .text
+{
+	background: transparent;
+	opacity:.7;
+	font-size: 2em;
+}
+.full-block .fadedWindowLabel2
+{
+	display: table;
+	width:100%;
+	height:100%;
+}
+.full-block .fadedWindowLabel2 .cell
+{
+	border:1px solid #fff;
+	text-align: center;
+    padding: 0 40px;
+	display: table-cell;
+    vertical-align: middle;
+}
+.full-block .fadedWindowLabel2 .cell .text
+{
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    width: 245px;
+    height: 82px;
+	background:transparent;
+	-webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.full-block .fadedWindowLabel2 .cell .text h3
+{
+	color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.full-block .fadedWindowLabel2 .cell .text p
+{
+	color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    background-color: red;
+}
+/*-----------------END Blur Block-------------------------------*/
+/*-----------------GENERAL Classes-----------------------------*/
+.titTxtBtn-1   /* title text and button */
+{
+	text-align: center;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.titTxtBtn-1 .tit
+{
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	
+}
+.titTxtBtn-1 .txt
+{
+	font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+	
+}
+
+/*-----------------END GENERAL Classes-----------------------------*/
+/*-----------------GENERAL classes for extra help---------------*/
+.top-buffer { margin-top:20px; }
+.bottom-buffer { margin-top:20px; } 
+.top-bottom-buffer { margin-top:20px; margin-bottom: 20px; }
+.top-bottom-padding { padding-top:40px; padding-bottom: 40px; }
+.navbar-custom-uno
+{
+	position: relative;
+    width: 100%;
+    background: transparent;
+}
+.cursive
+{
+	font-family: 'Lobster', cursive;
+}
+.line-separator
+{
+	height:1.5px;
+background:#717171;
+width: 304px;
+	    margin: 0 auto;
+}
+.btn-clear   /* this will be styling for a transparent and white text btn*/
+{
+	background: transparent;
+    color: white;
+    border: 2px solid #fff;
+    font-size: 2em;
+    padding: .3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 1em;
+	-webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.btn-clear:hover
+{
+	background:#fff;
+	color:#000;
+}
+
+/*-----------------END GENERAL classes for extra help---------------*/
