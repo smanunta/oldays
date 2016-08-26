@@ -12,7 +12,7 @@
 					<nav class="navbar-custom-uno navbar-inverse navbar-static-top">
 						<div class="navbar-inner">
 							<div class="container-fluid">
-								<!-- Title or logo --> 
+								<!-- Title or logo -->
 								<div class='navbar-header'>
 									<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#main_navbar'>
 										<span class='icon-bar'></span>
@@ -53,11 +53,11 @@
 				   <div id="oldays1-image-block" class="col-md-6">
 					   <img src="./images/flower.png" id="jumboImage1"/>
 				   </div>
-				   
+
 			   </div>
-				
+
 			</div>
-		
+
 	</header>
 	<div id="contentBanner" class="">
 			<div class="container top-bottom-buffer">
@@ -68,9 +68,9 @@
 						<img src="images/alex.jpg" class="img-circle baristaMain"/>
 				</div>
 				<div class="col-md-6 titTxtBtn-1">
-					<h3 class="tit">The Homeboy</h3>
+					<h3 class="tit">The Barista</h3>
 						<p class="txt">
-							This is our straigh OG barista. When he aint hustling some coffee beans on da streets, he out here whippingn.
+							This is our expert barista. When hes not making delicious drinks he enjoys reading a book and web development.
 						</p>
 				</div>
 			</div>
@@ -88,7 +88,7 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="half-block">
-					
+
 							<div class="fadedWindowLabel">
 								<div class="cell">
 									<div class="text">
@@ -102,7 +102,7 @@
 							<img src="./images/menu.jpg">
 				</div>
 			</div>
-		</div>	
+		</div>
 	</div>
 	<!--<div class=" top_menu">
 			<div class="well">
@@ -112,14 +112,14 @@
 				<a class="btn btn-info" href="#">Button</a>
 				<a class="btn btn-danger" href="#">Button</a>
 				<a class="btn btn-link" href="#">Button</a>
-				
+
 				<a class="btn btn-success btn-lg" href="#">Button</a>
 				<span class="glyphicon glyphicon-glass"></span>
 			</div>
 		</div>-->
 	<div id="delivery" class="">
 		<div class="full-block">
-					
+
 							<div class="fadedWindowLabel2">
 								<div class="cell">
 									<div class="text">
@@ -131,7 +131,7 @@
 								</div>
 							</div>
 							<img src="./images/delivery.jpg">
-		</div>	
+		</div>
 	</div>
 	<div id="contanos" class="">
 			<div class="container">
@@ -147,11 +147,11 @@
 					<div class="col-md-8">
 						<div class="form-group">
 							<div class="row">
-								<div class="col-md-8">	
+								<div class="col-md-8">
 									<label for="nombre">Nombre(no es necesario): </label>
 									<input type="text" class="form-control" name="username" value="">
-								</div>	
-								<div class="col-md-4">	
+								</div>
+								<div class="col-md-4">
 									<label for="first">First: </label>
 									<input type="text" class="form-control" name="first" value="">
 								</div>
@@ -159,7 +159,7 @@
 						</div>
 						<div class="form-group">
 							<div class="row">
-								<div class="col-md-12">	
+								<div class="col-md-12">
 									<label for="Contanos">Contanos!! </label>
 									<textarea class="form-control" rows="5" name="contanos" required="required"></textarea>
 								</div>
@@ -177,7 +177,7 @@
 							</div>
 						</div>
 					</div>
-						
+
 				</form>
 			</div>
 		</div>
